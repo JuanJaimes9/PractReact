@@ -15,7 +15,7 @@ export default function Exercise1() {
             <p>Click buttons for do things.</p>
             <button className="btn add" onClick={()=> setCount(count + 1)}>Add 1</button>
             <button className="btn add" onClick={() => setCount(count + 2)}>Add 2</button>
-            <button className="btn" onClick={() => setCount(0)}>Reset</button>
+            <button className="btn reset" onClick={() => setCount(0)}>Reset</button>
         </div>
     </div>
   )

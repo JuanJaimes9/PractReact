@@ -50,7 +50,7 @@ p{
     gap: 10px;
 }
 
-.add{
+.btn{
     width: 80px;
     height: 40px;
     padding: 5px;
@@ -59,5 +59,12 @@ p{
     cursor: pointer;
     font-size: 15px;
     font-weight: 600;
+}
+
+.add {
     background-color: rgba(0, 112, 0, 0.637);
+}
+
+.reset{
+    background-color: rgb(168, 2, 2);
 }
