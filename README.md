@@ -1,9 +1,9 @@
-# React + Vite
+# React Practice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hi, I'm learning how React works.
 
-Currently, two official plugins are available:
+I just want to create a Repository for improve my *React skills*, actually I don't have a work, so I really want to learn how can I use this framework.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-"# PractReact" 
+Today is July 10, I hope to in a month, I will get have all the basic skills for search a React Developer Jr work.
+
+Thanks.
