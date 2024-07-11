@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import '../styles/exerciseNavigator.css'
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import Exercise1 from './Exercise1'
+import Exercise1 from './exercises/exercise1/Exercise1'
 
 
 const exercises = [<Exercise1/>];
