@@ -6,8 +6,8 @@ export default function Exercise1() {
     const [count, setCount] = useState(0)
 
   return (
-    <div>
-        <h2>useState() Exercise</h2>
+    <div className='app-container'>
+        <h2>Click Counter</h2>
         <div className="count">
         {count}
         </div>

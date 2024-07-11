@@ -7,7 +7,7 @@ export default function App() {
   return (
     <div className='app'>
         <h1> ✨React Practice Exercises✨</h1>
-        <div className="app-container">
+        <div>
           <ExerciseNavigator />
         </div>
     </div>

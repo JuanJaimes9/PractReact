@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+.ex1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .app-container {
     display: flex;
     flex-direction: column;
@@ -23,7 +29,7 @@
     border-radius: 15px;
 }
 
-.count {
+.count, .timer {
     color: rgb(255, 255, 255);
     font-size: 50px;
     font-weight: 600;
@@ -49,6 +55,8 @@ p{
     justify-content: center;
     gap: 10px;
 }
+
+
 
 .btn{
     width: 80px;
