@@ -4,3 +4,8 @@
    right: 10px;
 
 }
+.prev-exc-btn{
+   position: fixed;
+   bottom: 10px;
+   left: 10px;
+}

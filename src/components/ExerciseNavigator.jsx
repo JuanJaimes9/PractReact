@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
 import '../styles/exerciseNavigator.css'
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import Exercise1 from './exercises/exercise1/Exercise1'
+import Exercise2 from './exercises/exercise2/Exercise2';
 
 
-const exercises = [<Exercise1/>];
+const exercises = [<Exercise1/>, <Exercise2/>];
 
 export default function ExerciseNavigator() {
 
@@ -14,12 +16,16 @@ export default function ExerciseNavigator() {
         setCurrentExercise((prev) => (prev + 1) % exercises.length);
     }
 
+    const prevExercise = () => {
+      setCurrentExercise((prev) => (prev - 1) % exercises.length);
+  }
+
   return (
     <div>
         {exercises[currentExercise]}
 
         <button className='next-exc-btn' onClick={nextExercise}><ArrowForwardIosIcon fontSize='large'/> </button>
-
+        <button className='prev-exc-btn' onClick={prevExercise}><ArrowBackIosNewIcon fontSize='large'/></button>
     </div>
   )
 }
