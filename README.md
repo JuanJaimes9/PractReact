@@ -18,4 +18,4 @@ On this exercise, I created a click counter using <useState()> hook, the exercis
 ## Exercise 2
 
 
-On the second exercise, I created a timer that will update each second. I use hooks like <useState()> and <useEffect()>. This exercise have a single button for reset the timer.
+On the second exercise, I created a timer that will update each second. I use hooks like <useState()> and <useEffect()>. This exercise have three buttons; one for start, one fot pause and the last one for reset the timer.
