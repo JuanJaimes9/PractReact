@@ -1,0 +1,46 @@
+.app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    margin: 15px;
+}
+
+input{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 5px;
+}
+
+.task-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+    width: 30vw;
+    border-radius: 10px;
+    background-color: rgba(214, 214, 214, 0.671);
+    color: rgb(27, 27, 27);
+}
+
+.complete{
+    background-color: rgba(0, 145, 0, 0.834);
+    color: rgb(9, 52, 0);
+    border: 1px solid black;
+    text-decoration: line-through;
+}
+
+.delete:hover{
+    color: rgba(212, 1, 1, 0.748);
+}
+
+.completed:hover{
+    color: rgba(228, 253, 228, 0.758);
+}
