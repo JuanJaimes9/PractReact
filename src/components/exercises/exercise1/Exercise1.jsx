@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../../../styles/exercise1.css'
+import './exercise1.css'
 
 export default function Exercise1() {
 

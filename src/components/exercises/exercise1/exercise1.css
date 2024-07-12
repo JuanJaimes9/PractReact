@@ -30,7 +30,7 @@
 }
 
 .count, .timer {
-    color: rgb(255, 255, 255);
+    color: rgb(254, 254, 254);
     font-size: 3rem;
     font-weight: 600;
     border: 2px solid rgba(0, 0, 0, 0.579);
