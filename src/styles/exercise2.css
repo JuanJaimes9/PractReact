@@ -4,10 +4,11 @@ h2{
 }
 
 .timer {
-    padding: 90px;
+    padding: 1.5em;
 }
 
 .btn{
-    height: 60px;
+    height: 3.2em;
+    width: 5em;
 }
 

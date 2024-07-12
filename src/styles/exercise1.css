@@ -31,16 +31,16 @@
 
 .count, .timer {
     color: rgb(255, 255, 255);
-    font-size: 50px;
+    font-size: 3rem;
     font-weight: 600;
     border: 2px solid rgba(0, 0, 0, 0.579);
-    padding: 50px;
+    padding: 1.5em;
     border-radius: 20px;
     user-select: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 0.8em;
 }
 
 p{
@@ -50,22 +50,21 @@ p{
 
 .buttons-container{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 0.5em;
 }
 
 
 
 .btn{
-    width: 80px;
-    height: 40px;
-    padding: 5px;
+    width: 4em;
+    height: 1em;
+    padding: 0.5em;
     border: 1px solid white;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 600;
 }
 

@@ -18,7 +18,7 @@ export default function ExerciseNavigator() {
     }
 
     const prevExercise = () => {
-      setCurrentExercise((prev) => (prev - 1) % exercises.length);
+      setCurrentExercise((prev) => (prev - 1 + exercises.length) % exercises.length);
   }
 
   return (
